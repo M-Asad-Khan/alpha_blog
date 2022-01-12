@@ -1,0 +1,22 @@
+#home_page{
+  background-image: asset-url('jumbo-copy.jpg');
+  background-size: cover;
+  background-position: center center ;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+#home_page .jumbotron .display-4{
+    padding-top: 100px !important;
+}
+/* Sticky Footer Classes */
+
+html,
+body {
+  height: 100%;
+}
+
+#page-content {
+  flex: 1 0 auto;
+  background-color: lightgray;
+}
+

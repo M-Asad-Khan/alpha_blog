@@ -14,6 +14,7 @@ gem "sprockets-rails"
 
 gem "pg", '~> 1.2.3'
 
+gem 'bootstrap', '~> 5.1.3'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
@@ -22,13 +23,14 @@ gem "puma", "~> 5.0"
 gem "importmap-rails"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+gem "turbo-rails", '~> 1.0.0'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
+
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
