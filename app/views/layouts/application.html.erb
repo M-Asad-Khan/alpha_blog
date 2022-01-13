@@ -13,11 +13,15 @@
   </head>
 
   <body class="d-flex flex-column">
-  <%if flash %>
-    <%= render 'layouts/messages' %>
-  <%end%>
+ 
   <%=render "layouts/header" %>
-    <%= yield %>
+  <div id="page-content">
+      <%if flash %>
+        <%= render 'layouts/messages' %>
+      <%end%>
+      <%= yield %>
+  </div>
+  <%=render "layouts/footer" %>
   </body>
      <!-- Optional JavaScript; choose one of the two! -->
 
